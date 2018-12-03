@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  position: absolute;
+  right: 10rem;
+  top: 35px;
+  color: black;
+  text-decoration: none;
+}
+.material-icons {
+  position: absolute;
+  right: 8rem;
+  top: 35px;
+  text-decoration: none;
+  color: black;
+}
+
+.sign a {
+  position: absolute;
+  right: 2rem;
+  top: 35px;
+  color: #fff;
+  text-decoration: none;
+  background-color: rgb(6, 104, 252);
+  padding: 0.2rem 1rem;
+}
+
+/* Body */
+main {
+  margin-top: 20rem;
+  text-align: center;
+}
+form.example {
+  margin-left: 30rem;
+  margin-top: 3rem;
+}
+.img {
+  margin-left: 10rem;
+}
+/* Style the search field */
+form.example input[type="text"] {
+  padding: 0.8rem;
+  font-size: 17px;
+  border: 1px solid rgb(204, 203, 203);
+  float: left;
+  width: 60%;
+  background: #fff;
+  border-right: none;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 0.8rem;
+  background: #fff;
+  color: fff;
+  font-size: 17px;
+  border: 1px solid rgb(204, 203, 203);
+  border-left: none;
+  cursor: pointer;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: -10rem;
+  margin-right: -2rem;
+}
+
+.buttons a {
+  padding: 1rem;
+  text-decoration: none;
+  color: grey;
+  background-color: rgb(214, 213, 213);
+  padding: 0.5rem 2rem;
+}
+
+.a-btn {
+  position: relative;
+  right: -10vh;
+}
+
+.body {
+  margin-top: 38vh;
+}
+
+.others {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4rem 40rem;
+  width: 500px;
+}
+.others > p {
+  display: contents;
+}
+
+.others > a {
+  text-decoration: none;
+}
+
+footer {
+  text-decoration: none;
+  color: grey;
+  background-color: rgb(214, 213, 213);
+  padding: 1rem;
+  margin-top: 20rem;
+}
+
+.right {
+  float: right;
+  display: flex;
+  margin: -2rem 2rem;
+}
+hr {
+  border: 1px solid rgb(204, 203, 203);
+  width: 100%;
+}
